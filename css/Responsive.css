@@ -1,0 +1,149 @@
+/* Medium Desktop : 992px */
+
+@media only screen and (min-width: 992px) and (max-width:1200px){
+    .container{max-width: 970px;}
+    html {font-size: 56.5%;}
+    .header-menu ul li {padding-left: 1.7rem;padding-right: 1.7rem;}
+    .header-bttn {padding-right: 16px;}
+    .single-service p { width: 22rem;display: inline-block;}
+    .team-img img {height: 28rem;}
+    .single-blog p{width: 32rem;}
+    .testimonial-section { background-position: right;}
+    .feature-wrap {margin-left: 0;margin-right:0;}
+     .footer-3{position: absolute;top: 0px;right: -288px;}
+    .footer-right { margin-right: 20px}
+    .footer-left { margin-left: 20px;}
+    
+}
+
+/* Tablet Desktop : 768px */
+
+@media (min-width: 768px) and (max-width:991px){
+    .container{max-width:750px;}
+    html {font-size: 54.5%;}
+    .header-menu ul{display: none;}
+    .mobile-menu-bar{display: block;float: right;}
+    .header-logo {padding-left: 30px;}
+    .header-bttn {padding-right: 3.5rem;}
+    .header-bottom h1 {font-size: 5.2rem;}
+    .header-section {background-position: center;}
+    .testimonial-content p {width: 76rem;}
+    .single-feature p {width: 24.8rem;}
+    .feature-wrap {margin-left: 0;margin-right:0;}
+    .left-why-us p {width: 42.5rem;}
+    .left-why-us h2 { width: 50.4rem;}
+    .subscribe{display: block;text-align: center;}
+    .subscribe input[type="text"], .subscribe input[type="email"] { display: block;margin-left: 250px;margin-bottom: 15px;}
+    .why-us-section {padding-bottom: 50px;}
+    .single-service p {width: 17rem;display: inline-block;}
+    .service-pdng-3{padding-top: 7px;}
+    .pricing-padding {padding-left: 14px;padding-right: 14px;}
+    .single-pricing span span {left: 9.5rem;}
+    .team-img img {height: 45.7rem;}
+    .team-r-padding{padding-bottom: 20px;}
+    .single-blog {text-align: center;}
+    .single-blog p {display: inline-block;}
+    .single-blog span::after {left: 46rem;}
+    .blog-padding{ padding-bottom: 50px;}
+    .testimonial-section { background-position: right;}
+    .footer-content-wrap {display: block;text-align: center;}
+    .footer-d-none{display: none;}
+    .footer-right-r { margin-left: 95px;}
+    .footer-right { margin-right: 20px}
+    .footer-left { margin-left: 20px;}
+
+}
+
+/* Large Mobile :480px */
+@media only screen and (min-width: 480px) and (max-width:767px){
+    .container{max-width:450px;}
+    html {font-size: 50.5%;}
+    .header-menu ul{display: none;}
+    .mobile-menu-bar{display: block;float: right;}
+    .header-logo {padding-left: 30px;}
+    .header-bttn {padding-right: 3.5rem;}
+    .header-bottom h1 {font-size: 4.2rem;}
+    .header-section {background-position: center;}
+    .why-us-section {padding-top: 25rem;padding-bottom: 26rem;}
+    .right-why-us img {max-width: 100%;
+       position: absolute;
+       top: -400px;
+       padding-right: 31px;}
+    .left-why-us {margin-top: -2px;position: relative;bottom: -160px;}
+    .subscribe{display: block;text-align: center;}
+    .subscribe input[type="text"], .subscribe input[type="email"] { display: block;margin-left: 112px;margin-bottom: 15px;}
+    .single-service p {display: inline-block;}
+    .service-padding-r{ padding-bottom: 30px;}
+    .pricing-padding{padding-bottom: 30px;}
+    .single-pricing span span { left: 23.1rem;}
+    .team-r-padding{padding:5px;}
+    .blog-padding{padding-bottom: 50px;}
+    .single-blog {text-align: center;}
+    .single-blog p {display: inline-block;}
+    .single-blog span::after {left: 31rem;}
+    .testimonial-section { background-position: center;}
+    .footer-d-none{display: none;}
+    .footer-left p {text-align: center;}
+    .footer-right ul {justify-content: center;}
+    .pricing-padding{padding-left: 0;
+    padding-right: 0;}
+    .pricing-padding-r{padding-left: 0;
+    padding-right: 0;}
+}
+
+/* small Mobile :320px */
+
+@media only screen and  (max-width:479px){
+    .container{max-width:300px;}
+    html {font-size: 47.5%;}
+    .header-menu ul{display: none;}
+    .mobile-menu-bar{display: block;float: right;}
+    .header-logo {padding-left: 30px;}
+    .header-bttn {padding-right: 3.5rem;}
+    .header-bottom h1 {font-size: 4.2rem;}
+    .header-section {background-position: center;}
+    .why-us-section {padding-top: 25rem;padding-bottom: 16rem;}
+    .right-why-us img {max-width: 100%;
+       position: absolute;
+       top: -400px;
+       padding-right: 31px;}
+    .left-why-us {margin-top: -2px;position: relative;bottom: -65px;}
+    .left-why-us h2 {width: 45.4rem;}
+    .left-why-us p {width: 35.5rem;}
+    .subscribe{display: block;text-align: center;}
+    .subscribe input[type="text"], .subscribe input[type="email"] { display: block;margin-left: 40px;margin-bottom: 15px;}
+    .service-padding-r{ padding-bottom: 30px;}
+    .pricing-padding{padding-bottom: 30px;}
+    .single-pricing span span {left: 15.1rem;}
+     .pricing-padding{padding-left: 0;
+    padding-right: 0;}
+    .pricing-padding-r{padding-left: 0;
+    padding-right: 0;}
+    .counter-padding{padding:10px;}
+    .team-r2-padding{padding-bottom: 20px;}
+    .blog-padding{padding-bottom: 50px;}
+    .testimonial-content p {width: 33rem;}
+    .testimonial-section { background-position: center center;}
+    .single-footer {text-align: center;}
+    .footer-d-none{display: none;}
+    .footer-social ul { justify-content: center;}
+    .footer-list-item ul {margin-left: 20px;}
+    .footer-padding{padding-bottom: 30px;}
+    .footer-left p {text-align: center;}
+    .footer-right ul {justify-content: center;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
