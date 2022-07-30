@@ -126,7 +126,9 @@
     .testimonial-section { background-position: center center;}
     .single-footer {text-align: center;}
     .footer-d-none{display: none;}
-    .footer-social ul { justify-content: center;}
+    .footer-social ul { justify-content: center;
+        margin-left: 25px;
+        margin-top: -10px;}
     .footer-list-item ul {margin-left: 20px;}
     .footer-padding{padding-bottom: 30px;}
     .footer-left p {text-align: center;}

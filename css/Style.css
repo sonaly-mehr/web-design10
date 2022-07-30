@@ -397,6 +397,7 @@ li{
     font-weight: 400;
     font-family:'Rubik', sans-serif;
     padding-bottom: 4rem;
+    display: inline-block;
 }
 .service-btn{}
 .service-btn a, .pricing-btn a{
@@ -750,6 +751,7 @@ button:focus {
     font-family: 'Poppins', sans-serif;
     padding-bottom: 4rem;
     width: 20rem;
+    display: inline-block;
 }
 .single-footer p{
     font-size: 1.5rem;
